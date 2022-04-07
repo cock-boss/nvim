@@ -18,5 +18,8 @@ return require('packer').startup(function()
   }
   use 'williamboman/nvim-lsp-installer'
   use 'jose-elias-alvarez/null-ls.nvim'
+  use 'fatih/vim-go'
+  use 'tomlion/vim-solidity'
+  use 'ChristianChiarulli/vim-solidity'
   
 end)
